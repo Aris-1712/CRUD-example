@@ -13,7 +13,7 @@ import thunk from 'thunk'
 // const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 // const store=createStore(Reducer, composeEnhancers(applyMiddleware(thunk)))
 const app=(
- <BrowserRouter basename='/student/'><App></App></BrowserRouter>
+ <BrowserRouter ><App></App></BrowserRouter>
 )
 
 ReactDOM.render(
