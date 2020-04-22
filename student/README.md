@@ -1,3 +1,13 @@
+## Student Master-CRUD
+
+A simple student master developed to demonstrate CRUD using NodeJS,Express,ReactJS and MSSQL.
+
+## Preview
+
+https://aris-1712.github.io/CRUD-example/
+
+-------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
