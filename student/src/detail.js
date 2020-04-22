@@ -109,7 +109,7 @@ const detail = (props) => {
           files: files,
           scores:scores
         };
-        let res = await Axios.post("http://localhost:3001/Student/add", obj);
+        let res = await Axios.post("https://arcane-citadel-24451.herokuapp.com/Student/add", obj);
         if (res.status === 200) {
           alert("Student Added.");
           // setName("")

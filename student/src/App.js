@@ -50,7 +50,7 @@ cols= [
 ]
 
 componentDidMount=async()=>{
-let res=await Axios.get('http://localhost:3001/student/all')
+let res=await Axios.get('https://arcane-citadel-24451.herokuapp.com/student/all')
 let Rows=[]
 console.log(res.data)
 res.data.map((obj)=>{
@@ -71,7 +71,7 @@ delclick=async(event,obj)=>{
   try{let data={
     ID:obj.ID
   }
-  let res=await Axios.post("http://localhost:3001/student/del",data)
+  let res=await Axios.post("https://arcane-citadel-24451.herokuapp.com/student/del",data)
   if(res.status===200){
     alert("Student Deleted")
     window.location.reload()
@@ -85,7 +85,7 @@ catch(err){
 }
 
 updateChecker=async()=>{
-  let res=await Axios.get('http://localhost:3001/student/all')
+  let res=await Axios.get('https://arcane-citadel-24451.herokuapp.com/student/all')
   let Rows=[]
   res.data.map((obj)=>{
     let Row={
